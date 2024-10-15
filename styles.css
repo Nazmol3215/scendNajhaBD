@@ -1,4 +1,27 @@
 
+.Frist_text{
+background-color: #333;
+color: white;
+}
+
+.the_back_pain{
+padding-left: 12%;
+padding-top:21px;
+}
+
+.scondLine{
+  padding-top: 33px;
+  padding-left: 22px;
+  padding-right: 11px;
+}
+
+
+.button-19{
+  margin-top: 22px;
+  margin-bottom: 11px;
+  margin-left:23%;
+}
+
 
 .button-19 {
     appearance: button;
@@ -14,10 +37,9 @@
     font-weight: 700;
     letter-spacing: .8px;
     line-height: 20px;
-    margin: 0;
     outline: none;
     overflow: visible;
-    padding: 13px 16px;
+    padding: 11px 13px;
     text-align: center;
     text-transform: uppercase;
     touch-action: manipulation;
@@ -28,7 +50,7 @@
     vertical-align: middle;
     white-space: nowrap;
     width:241px;
-    height: 61px;
+    height: 51px;
   }
   
   .button-19:after {
@@ -71,34 +93,93 @@
   
   }
   
-  
-  
   .product_benifit{
   margin-top: 32px;
-  
-  
   }
+
+  li{
+    list-style: none;
+    padding-top: 13px;
+  }
+
+
+
   
   .priceMain{
-      background-color: antiquewhite;
       justify-content: center;
+      margin-top: 22px;
+      border: 3px solid yellowgreen;
+      margin-bottom: 11px;
+      background-color: #F8F6F8;
   }
   
   
   .price{
   margin: auto;
-  width: 50%;
+  width: 70%;
   padding: 10px;
-  background-color: #FFFFFF;
+justify-content: center;
   
   }
+  
+  .price{
+  
+  }
+
+
+
+  
+.button-05 {
+  appearance: button;
+  background-color: #DAB906;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width:200px;
+  height: 61px;
+  margin-left: 33px;
+}
+
+
   
   .lamber_supout{
     background-color: black;
     color: white;
+      padding-left:41px;
+      padding-right:21px;
+      padding-top:21px;
+      padding-bottom:17px;
+    }
+    
   
+  .where_usage{
+    margin-top: 22px;
+    border: 5px solid yellowgreen;
   }
-  
+  .where_usage li{
+  margin-left: 21px;
+
+  }
   
   
   .cher_effect{
@@ -134,7 +215,7 @@
   }
   
   .order-container {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     margin: 20px;
   }
@@ -144,7 +225,7 @@
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 30%;
+    width: 90%;
   }
   
   h3 {
